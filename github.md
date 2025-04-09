@@ -17,4 +17,11 @@ origin	git@github.com:hun-wu/usage.git (push)
 4. 如果显示的是https开头的，则用的https进行clone的。这一种会比较麻烦，需要输入账号和密码(token)，适用于参与一些项目，而在个人项目不实用。
 
 
+## git commit
+- git commit -m '标题' 
+- git commit -m '标题' -m '描述内容'
+- 直接git commit ，会弹出vim文本框，输入内容。
 
+
+## Merge
+（待完成）
