@@ -25,3 +25,11 @@ origin	git@github.com:hun-wu/usage.git (push)
 
 ## Merge
 （待完成）
+
+## 全局忽略.DS_Store
+局部用.gitignore。
+全局：
+```shell
+echo .DS_Store >> ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+```
